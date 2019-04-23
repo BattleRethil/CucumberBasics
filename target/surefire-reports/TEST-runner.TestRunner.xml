@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="7.601" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/battlerethil/Documents/CucumberBasics/target/test-classes:/home/battlerethil/Documents/CucumberBasics/target/classes:/home/battlerethil/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/battlerethil/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/battlerethil/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-java8/1.2.5/cucumber-java8-1.2.5.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/battlerethil/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/battlerethil/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/battlerethil/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/battlerethil/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/battlerethil/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar:/home/battlerethil/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/battlerethil/.m2/repository/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar:/home/battlerethil/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/battlerethil/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/battlerethil/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/battlerethil/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/battlerethil/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/home/battlerethil/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/battlerethil/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/battlerethil/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/battlerethil/Documents/CucumberBasics/target/surefire/surefirebooter4324126067026710537.jar /home/battlerethil/Documents/CucumberBasics/target/surefire 2019-04-23T11-29-27_831-jvmRun1 surefire7044009227698700982tmp surefire_04194807411989617931tmp"/>
+    <property name="surefire.test.class.path" value="/home/battlerethil/Documents/CucumberBasics/target/test-classes:/home/battlerethil/Documents/CucumberBasics/target/classes:/home/battlerethil/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/battlerethil/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/battlerethil/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-java8/1.2.5/cucumber-java8-1.2.5.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/battlerethil/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/battlerethil/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/battlerethil/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/battlerethil/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/battlerethil/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/battlerethil/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar:/home/battlerethil/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/battlerethil/.m2/repository/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar:/home/battlerethil/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/battlerethil/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/battlerethil/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/battlerethil/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/battlerethil/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/battlerethil/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/home/battlerethil/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/battlerethil/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/battlerethil/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/battlerethil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/battlerethil/Documents/CucumberBasics"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/battlerethil/Documents/CucumberBasics/target/surefire/surefirebooter4324126067026710537.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-8u191-b12-2ubuntu0.18.04.1-b12"/>
+    <property name="user.name" value="battlerethil"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.18.0-17-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/battlerethil/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/home/battlerethil/Documents/CucumberBasics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="6.895">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;ASDAUserName&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-17-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;battlerethil-Inspiron-15-3567&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-17-generic&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.AYSzAg}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:42543}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}&#10;Session ID: 21aad82bdd5f0d65c38302fa56342569&#10;*** Element info: {Using=name, value=ASDAUserName}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"ASDAUserName"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-17-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'battlerethil-Inspiron-15-3567', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-17-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.AYSzAg}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:42543}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 21aad82bdd5f0d65c38302fa56342569
+*** Element info: {Using=name, value=ASDAUserName}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"ASDAUserName"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-17-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'battlerethil-Inspiron-15-3567', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-17-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.AYSzAg}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:42543}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 21aad82bdd5f0d65c38302fa56342569
+*** Element info: {Using=name, value=ASDAUserName}
+</failure>
+    <system-out><![CDATA[Opening the browser : Chrome
+Navigate Login Page
+The email address is: admin@rethil.com
+The salary digit is 7
+Login with the correct username and password
+Closing the browser : MOCK
+Opening the browser : Chrome
+Navigate Login Page
+Username is : execute
+Password is : automation
+Login with wrong username and password using Scenario outline
+Closing the browser : MOCK
+Opening the browser : Chrome
+Navigate Login Page
+Username is : admin
+Password is : admin
+Login with wrong username and password using Scenario outline
+Closing the browser : MOCK
+Opening the browser : Chrome
+Navigate Login Page
+Username is : Rethil
+Password is : battlerethil
+Login with wrong username and password using Scenario outline
+Closing the browser : MOCK
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 25621
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 23, 2019 11:29:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 9954
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 23, 2019 11:29:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 8534
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 23, 2019 11:29:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 11621
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 23, 2019 11:29:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

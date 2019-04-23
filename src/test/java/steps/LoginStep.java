@@ -6,6 +6,8 @@ import cucumber.api.Transform;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.openqa.selenium.By;
+import pages.LoginPage;
 import transformation.EmailTransform;
 import transformation.SalaryDigitTransform;
 
@@ -22,8 +24,8 @@ public class LoginStep extends BaseUtil{
 
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
-        System.out.println("The driver is " + base.StepInfo);
         System.out.println("Navigate Login Page");
+        base.driver.navigate().to("http://www.executeautomation.com/demosite/Login.html");
     }
 
     @And("^I enter the users email address as email: ([^\"]*)$")
@@ -43,9 +45,10 @@ public class LoginStep extends BaseUtil{
         List<User> users = new ArrayList<User>();
         users = table.asList(User.class);
 
+        LoginPage page = new LoginPage(base.driver);
+
         for (User user : users) {
-            System.out.println("The username is: " + user.username);
-            System.out.println("The password is: " + user.password);
+            page.CredentialLogin(user.username, user.password);
         }
     }
 
@@ -62,7 +65,8 @@ public class LoginStep extends BaseUtil{
 
     @And("^I click login button$")
     public void iClickLoginButton() {
-        System.out.println("Click login button");
+        LoginPage page = new LoginPage(base.driver);
+        page.ClickLogin();
         
     }
 
@@ -71,9 +75,16 @@ public class LoginStep extends BaseUtil{
         System.out.println("I should see the userform page");
     }
 
+    @Then("^I should NOT see the userform page$")
+    public void iShouldNOTSeeTheUserformPage() {System.out.println("I should see the userform page");}
+
     @And("^I enter ([^\"]*) and ([^\"]*)$")
     public void iEnterUsernameAndPassword(String userName, String password) {
         System.out.println("Username is : " + userName);
         System.out.println("Password is : " + password);
+
+        LoginPage page = new LoginPage(base.driver);
+        page.CredentialLogin(userName, password);
+
     }
 }
